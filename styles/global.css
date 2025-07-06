@@ -1,0 +1,18 @@
+@import "./variable.css"; 
+@import "./layout.css"; 
+@import "./border.css";
+@import "./element.css"; 
+@import "./component.css";
+@import "./background.css";
+@import "./typography.css";
+@import "./size.css";
+@import "./space.css";
+@import "./table.css";
+ 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-stack);
+}

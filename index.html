@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+</head>
+
+<body class="h-screen w-screen flex items-center justify-center">
+
+    <main class="container flex flex-col gap-6 max-w-md px-4">
+
+        <header class="flex items-center w-full gap-2">
+            <div class="flex-1 border-t w-full"></div>
+            <span class="text-primary font-semibold text-xl text-center">YAY! It's BOGO</span>
+            <div class="flex-1 border-t w-full"></div>
+        </header>
+
+        <form id="radio-container">
+        </form>
+
+        <section class="flex items-center justify-between text-md">
+            <span class="text-primary">Free Delivery</span>
+            <span class=" font-semibold">Total: <span id="total-amount">$0.00 USD</span></span>
+        </section>
+
+        <button id="checkout-btn" class="button">
+            +  Add to Cart
+        </button>
+
+    </main>
+
+    <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>
