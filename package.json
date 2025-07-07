@@ -1,0 +1,14 @@
+{
+  "name": "interactive-boxes",
+  "version": "1.0.0",
+  "description": "BOGO Offer Interactive Boxes Demo",
+  "main": "scripts/main.js",
+  "scripts": {
+    "start": "npx serve ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
